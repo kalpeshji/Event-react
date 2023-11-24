@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+img {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: 250px;
+}
+form {
+    background-color: transparent;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 7px 0.2px #fff;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+input {
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0.2px #fff;
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+button {
+    width: 110px;
+    padding: 8px 13px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 0.2px #fff;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    transition: all 0.3s linear;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.data {
+    background-color: transparent;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 7px 0.2px #fff;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+.deta {
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0.2px #fff;
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: #fff;
+}
+.ml-5{
+    margin-left: 18px;
+}
+h3{
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.error{
+    margin-bottom: 15px;
+    color: red;
+}
